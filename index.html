@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado Financiero - Éxito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Estado Financiero de Éxito</h1>
+            <p>Años 2023 y 2024</p>
+        </header>
+
+        <section class="financial-section">
+            <div class="financial-card">
+                <h2>Activos del año 2023</h2>
+                <div class="input-list">
+                    <div class="input-group"><label>Efectivo:</label><input type="number" id="efectivo2023" placeholder="0.00"></div>
+                    <div class="input-group"><label>Inventarios:</label><input type="number" id="inventarios2023" placeholder="0.00"></div>
+                    <div class="input-group"><label>Propiedades:</label><input type="number" id="propiedades2023" placeholder="0.00"></div>
+                    <div class="input-group"><label>Maquinaria:</label><input type="number" id="maquinaria2023" placeholder="0.00"></div>
+                    <div class="input-group"><label>Vehículos:</label><input type="number" id="vehiculos2023" placeholder="0.00"></div>
+                </div>
+                <h3>Total Activos 2023: $<span id="total2023">0.00</span></h3>
+            </div>
+
+            <div class="financial-card">
+                <h2>Activos del año 2024</h2>
+                <div class="input-list">
+                    <div class="input-group"><label>Efectivo:</label><input type="number" id="efectivo2024" placeholder="0.00"></div>
+                    <div class="input-group"><label>Inventarios:</label><input type="number" id="inventarios2024" placeholder="0.00"></div>
+                    <div class="input-group"><label>Propiedades:</label><input type="number" id="propiedades2024" placeholder="0.00"></div>
+                    <div class="input-group"><label>Maquinaria:</label><input type="number" id="maquinaria2024" placeholder="0.00"></div>
+                    <div class="input-group"><label>Vehículos:</label><input type="number" id="vehiculos2024" placeholder="0.00"></div>
+                </div>
+                <h3>Total Activos 2024: $<span id="total2024">0.00</span></h3>
+            </div>
+        </section>
+
+        <button onclick="calcularTotales()">Calcular Totales</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
